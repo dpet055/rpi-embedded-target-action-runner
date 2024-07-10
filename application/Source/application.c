@@ -26,7 +26,7 @@ void Application_RunDefaultTask(void)
 
 	calculate = Sensor_GetValue() + 20;
 
-	printf("Calculated value: %hd\n", calculate);
+	printf("Calculated value: %ld\n", calculate);
 
 	for(;;)
 	{
